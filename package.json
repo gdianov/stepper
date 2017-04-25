@@ -1,0 +1,50 @@
+{
+    "author": "es_dianoff@yahoo.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "mypepbble",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "mypepbble",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/FONT_PERFECT_DOS_15",
+                    "name": "FONT_PERFECT_DOS_15",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/FONT_PERFECT_DOS_48",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/BACKGROUND",
+                    "name": "IMAGE_BACKGROUND_PEBBLE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "71db5a20-0948-4b4a-8ead-059837bccf34",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
