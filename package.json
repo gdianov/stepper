@@ -16,14 +16,14 @@
         "resources": {
             "media": [
                 {
-                    "file": "fonts/FONT_PERFECT_DOS_15",
-                    "name": "FONT_PERFECT_DOS_15",
+                    "file": "fonts/FONT_CAPTURE_15",
+                    "name": "FONT_CAPTURE_15",
                     "targetPlatforms": null,
                     "type": "font"
                 },
                 {
-                    "file": "fonts/FONT_PERFECT_DOS_48",
-                    "name": "FONT_PERFECT_DOS_48",
+                    "file": "fonts/FONT_CAPTURE_40",
+                    "name": "FONT_CAPTURE_40",
                     "targetPlatforms": null,
                     "type": "font"
                 },
