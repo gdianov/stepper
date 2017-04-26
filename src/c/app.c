@@ -23,7 +23,7 @@ void update_time() {
 }
 
 void update_date() {
-  static char s_date_buffer[30];
+  static char s_date_buffer[22];
   strftime(s_date_buffer, sizeof(s_date_buffer), DATE_FORMAT_VIEW, get_system_time());
   text_layer_set_text(s_date_layer, s_date_buffer);
 }
@@ -42,10 +42,9 @@ static void main_window_load(Window *window) {
   Layer *window_layer = window_get_root_layer(window);
   
   GRect bounds = layer_get_bounds(window_layer);
-  GRect *const ptrBounds = &bounds; 
   
-  layer_add_child(window_layer, text_layer_get_layer(getTimeLayer(ptrBounds)));//Init Time Layer
-  layer_add_child(window_layer, text_layer_get_layer(getDateLayer(ptrBounds)));//Init Date Layer
+  layer_add_child(window_layer, text_layer_get_layer(getTimeLayer(&bounds)));//Init Time Layer
+  layer_add_child(window_layer, text_layer_get_layer(getDateLayer(&bounds)));//Init Date Layer
 }
 
 static void main_window_unload(Window *window) {

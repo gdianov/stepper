@@ -1,7 +1,7 @@
 #pragma once
 
-TextLayer *getTimeLayer(GRect *bounds);
-TextLayer *getDateLayer(GRect *bounds);
+TextLayer *getTimeLayer(const GRect *bounds);
+TextLayer *getDateLayer(const GRect *bounds);
 
 
 
